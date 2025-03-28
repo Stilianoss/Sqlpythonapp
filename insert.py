@@ -11,11 +11,10 @@ def insert_book(tittle,category,size,color,material):
     cursor.close()
     connection.close()
 
-    tittle = input("Eisagete titlo")
-    category = input("Eisagete katigoria")
-    size = input("Eisagete megethos")
-    color = input("Eisagete xrwma")
-    material = input("Eisagete iliko")
+tittle = input("Eisagete titlo")
+category = input("Eisagete katigoria")
+size = input("Eisagete megethos")
+color = input("Eisagete xrwma")
+material = input("Eisagete iliko")
     
-    insert_clothes("trouser", "trouser", "m", "black", "cotton")    
-    
+insert_book(tittle,category,size,color,material)
